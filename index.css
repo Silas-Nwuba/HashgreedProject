@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:linear-gradient(#486dc0 100%,#001948 100%);
+}
+#All-card>div{
+    position:absolute;
+    top:-50%;
+    left:-50%;
+    transform: translate(-50%,-50%);
+}
+.btn-link {
+    text-decoration:none;
+    color: white;
+    font-size:2opx;
+    text-align: center;
+    padding:5px;
+   
+}
+.btn-link a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+@media screen and (max-width:760px){
+    #footer{ position:relative; top:300px;}
+      #Download{margin-top: 20px;}
+       
+}
+
